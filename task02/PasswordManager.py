@@ -1,7 +1,7 @@
 # Importing necessary modules
 import random as rd
 import string as st
-from ecdsa import SigningKey, NIST256p, BadSignatureError
+from ecdsa import SigningKey, NIST256p, BadSignatureError #The ECC method of encryption has been used for encrypting and decrypting.
 from hashlib import sha256
 from ecdsa.util import sigencode_der, sigdecode_der
 
